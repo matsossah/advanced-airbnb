@@ -1,0 +1,72 @@
+.banner-thin {
+  height: 300px;
+  background-size: cover;
+}
+
+.wrapper-description {
+  padding: 50px;
+  background: white;
+  p {
+    color: $gray-light;
+  }
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+.btn-reservation {
+  color: white;
+  padding: 6px 20px;
+  font-weight: bold;
+  width: 330px;
+  transition: background 0.3s ease;
+  border-color: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #D23333;
+}
+
+.container-form {
+  padding: 10px;
+  background-color: $gray-lighter;
+}
+
+.availability {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-reservation:hover {
+  opacity: 0.8;
+  text-decoration: none;
+  color: white;
+}
+
+.summary {
+  text-align: left;
+  margin-top: 10px;
+  ul {
+    padding-left: 0;
+    text-align: left;
+  }
+}
+
+.wrapper-description li {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  list-style: none;
+}
+
+.wrapper-description li > .colored {
+  color: #ffb400;
+  font-size: 15px;
+}
+
+.wrapper-description li > .uncolored {
+  color: $gray-lighter;
+  font-size: 15px;
+}
+
+

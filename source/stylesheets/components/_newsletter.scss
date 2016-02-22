@@ -1,0 +1,15 @@
+.btn-subscribe {
+  color: white;
+  padding: 5px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: $lighter-blue;
+  transition: background 0.3s ease;
+  border-color: none;
+  &:hover {
+    opacity: 1;
+    background: $light-blue;
+    text-decoration: none;
+  }
+}
+

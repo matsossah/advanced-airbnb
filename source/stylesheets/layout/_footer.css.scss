@@ -1,0 +1,41 @@
+.footer-wrapper {
+  min-height: 120px;
+  background: #333333;
+  padding: 30px;
+  ul {
+    text-align: center;
+    vertical-align: middle;
+  }
+  li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+  }
+  li > .fa {
+    color: #f6f6f6;
+    transition: background 0.3s ease;
+    margin: 10px;
+    font-size: 30px;
+  }
+  li > .fa:hover {
+    color: #46BCEC;
+    font-size: 35px;
+  }
+}
+
+.footer-wrapper p {
+  color: #f6f6f6;
+  line-height: 70px;
+  text-align: center;
+
+}
+
+#footer-title {
+  font-size: 30px;
+  text-align: center;
+  color: #f6f6f6;
+
+}

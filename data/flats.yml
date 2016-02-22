@@ -1,0 +1,29 @@
+seb:
+  owner_name: Sebastien
+  picture: 'card-london.jpeg'
+  owner_picture: 'seb.jpg'
+  name: Seb's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  wifi: true
+  rating: 3
+romain:
+  owner_name: Romain
+  picture: 'card-brussels.jpeg'
+  owner_picture: 'romain.jpeg'
+  name: Romain's home
+  summary: Lovely house
+  city: Brussels, Belgium
+  wifi: false
+  rating: 4
+anne:
+  owner_name: Anne
+  picture: 'card-paris.jpg'
+  owner_picture: 'anne.jpg'
+  name: Anne's home
+  summary: Charming room in Montmartre
+  city: Paris, France
+  wifi: true
+  rating: 5
+
+# background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2))

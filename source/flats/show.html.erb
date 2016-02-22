@@ -1,0 +1,56 @@
+<!-- source/flats/show.html.erb -->
+
+<!-- Read from data.flats with owner key -->
+<% flat = data.flats[owner] %>
+
+<!-- Inject flat data in template -->
+<div class="banner-thin" style="background-image: url('../images/<%= flat.picture %>')"></div>
+
+<div class="wrapper-description">
+  <div class="container">
+    <div class="row">
+      <div class="row col-xs-12 col-sm-4 text-center">
+        <div class="col-xs-4">
+          <%= image_tag flat.owner_picture, class: "avatar-profile" %>
+          <p><%= flat.owner_name %></p>
+        </div>
+        <div class="summary col-xs-8">
+          <h4><%= flat.summary %></h4>
+          <p><%= flat.city %></p>
+          <ul>
+            <% (1..5).each do |i| %>
+              <% if flat.rating >= i %>
+                <li><i class="fa fa-star colored"></i></li>
+              <% else %>
+                <li><i class="fa fa-star uncolored"></i></li>
+              <% end %>
+            <% end %>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-sm-offset-4 text-center">
+        <div class="container-form">
+          <div class="row form-login in-line">
+            <div class="col-xs-6"><input type="text" class="form-control availability" placeholder="Check-in"></div>
+            <div class="col-xs-6"><input type="text" class="form-control availability" placeholder="Check-out"></div>
+          </div>
+          <select class="form-control">
+            <option value="1">1 guest</option>
+            <option value="2">2 guests</option>
+            <option value="3">3 guests</option>
+          </select>
+          <input class="btn btn-reservation" type="submit" value="Book it!">
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wrapper-grey wrapper">
+  <div class="container">
+    <div class="row">
+      <h2>Your room</h2>
+    </div>
+  </div>
+</div>
