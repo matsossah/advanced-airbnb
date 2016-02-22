@@ -4,26 +4,53 @@ seb:
   owner_picture: 'seb.jpg'
   name: Seb's home
   summary: Nice flat in Piccadilly
+  description: This one bedroom studio lodges 3 people (there's 1 double bed) it
+              is located in the city center, in a calm traditional residential area
+              near city´s main Avenue - 3 minutes walk from Picadilly circus.
   city: London, UK
   wifi: true
   rating: 3
+  capacity: 5
+  bathrooms: 2
+  bedrooms: 3
+  kitchen: true
+  wifi: true
+  tv: false
 romain:
   owner_name: Romain
   picture: 'card-brussels.jpeg'
   owner_picture: 'romain.jpeg'
   name: Romain's home
   summary: Lovely house
+  description: This one bedroom studio lodges 3 people (there's 1 double bed) it
+              is located in the city center, in a calm traditional residential area
+              near city´s main Avenue - 3 minutes walk from the Manneken-Pis.
   city: Brussels, Belgium
   wifi: false
   rating: 4
+  capacity: 2
+  bathrooms: 1
+  bedrooms: 1
+  kitchen: true
+  wifi: true
+  tv: true
 anne:
   owner_name: Anne
   picture: 'card-paris.jpg'
   owner_picture: 'anne.jpg'
   name: Anne's home
   summary: Charming room in Montmartre
+  description: This one bedroom studio lodges 4 people (there's 1 double bed) it
+              is located in the city center, in a calm traditional residential area
+              near city´s main Avenue - 3 minutes walk from Montmartre.
   city: Paris, France
   wifi: true
   rating: 5
+  capacity: 3
+  bathrooms: 2
+  bedrooms: 2
+  kitchen: true
+  wifi: false
+  tv: true
 
-# background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2))
+

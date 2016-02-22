@@ -47,10 +47,37 @@
   </div>
 </div>
 
-<div class="wrapper-grey wrapper">
+<div class="wrapper-grey wrapper-about">
   <div class="container">
-    <div class="row">
-      <h2>Your room</h2>
+    <div class="row about">
+      <h3>About this flat</h3>
+      <p><%= flat.description %></p>
+    </div>
+    <div class="row row-about">
+      <div class="col-xs-12 col-sm-2 section">
+        <h5>The space</h5>
+      </div>
+      <div class="col-xs-12 col-sm-10 row-about">
+        <p>Accommodates: <%= flat.capacity %></p>
+        <p>Bathrooms: <%= flat.bathrooms %></p>
+        <p>Bedrooms: <%= flat.bedrooms %></p>
+      </div>
+    </div>
+    <div class="row row-about">
+      <div class="col-xs-12 col-sm-2 section">
+        <h5>Amenities</h5>
+      </div>
+      <div class="col-xs-12 col-sm-10 row-about">
+        <% if flat.tv == true %>
+          <li><i class="fa fa-desktop"></i> Tv</li>
+        <% end %>
+        <% if flat.kitchen == true %>
+          <li><i class="fa fa-cutlery"></i> Kitchen</li>
+        <% end %>
+        <% if flat.wifi == true %>
+          <li><i class="fa fa-wifi"></i> Wifi</li>
+        <% end %>
+      </div>
     </div>
   </div>
 </div>
